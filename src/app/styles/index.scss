@@ -1,0 +1,61 @@
+$theme-color: #0bf;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+/* footer */
+.footer {
+  z-index: 1;
+  background-color: $theme-color;
+  color: $white;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-item {
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.title {
+  align-items: center;
+  justify-content: center;
+}
+
+/* map view */
+.main {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+webmap {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Fix for some calcite styles */
+.esri-widget {
+  h3 {
+    font-size: 1rem;
+  }
+  li {
+    margin: 0;
+  }
+}
