@@ -8,7 +8,7 @@ export interface State {
   scene: SceneLayer;
 }
 
-export interface Actions extends Hyperapp.ActionsType<any, any> {
+export interface Actions {
   addMapView: (a: HTMLDivElement) => (b: State) => void;
   filterScene: (a: string) => (b: State) => void;
 };
